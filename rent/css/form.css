@@ -1,0 +1,50 @@
+.reserve_form {
+  width: 480px;
+  margin: 48px;
+  padding: 48px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #f2f2f2;
+}
+
+label {
+  display: inline-block;
+  width: 240px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+input[type="date"] {
+  width: 360px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 1.2em;
+}
+
+input[type="checkbox"] {
+  margin-right: 12px;
+  transform: scale(0.8);
+}
+
+input[type="submit"] {
+  padding: 24px 48px;
+  font-size: 1.4em;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.center-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

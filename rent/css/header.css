@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(152, 82, 94);
+}
+
+.header {
+  /* position: fixed;/*위로 붙혀준다*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(103, 21, 35);
+  box-shadow: 0 0 3px black;
+  /* z-index: 20; */
+}
+
+.header__wrapper a {
+  text-decoration-line: none;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.header__wrapper {
+  display: flex; /*가로로 정렬*/
+  align-items: center; /*중앙에 정렬*/
+  justify-content: space-between; /*간격 넓히기*/
+  height: 60px;
+  padding: 0 16px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.header__logo {
+  font-weight: bold;
+}
+
+.header__profile {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  background-color: rgb(145, 38, 120);
+  text-align: center;
+  padding-top: 16px;
+  font-size: 12px;
+}
+
+#header__logout {
+  display: none;
+}
+#logout_submit {
+  color: white;
+  background-color: rgb(103, 21, 35);
+  border: none;
+  font-weight: bold;
+}
+
+#ticket_history {
+  display: none;
+}
